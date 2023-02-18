@@ -3,9 +3,17 @@ repos:
     rev: v2.3.0
     hooks:
     -   id: check-yaml
-    -   id: end-of-file-fixer
     -   id: trailing-whitespace
 -   repo: https://github.com/psf/black
     rev: 19.3b0
     hooks:
     -   id: black
+-   repo: local
+    hooks:
+    -   id: check-date-format
+        name: Check if the date in the qmd file is in proper format
+        entry: ./check_date_format.R
+        args: ["SidPost.qmd"]
+        language: system
+        pass_filenames: false
+        stages: [commit]
