@@ -4,7 +4,7 @@
 # system(paste("chmod +x", commandArgs(trailingOnly = TRUE)[0]))
 
 # Define the regular expression pattern to match the date string
-DATE_PATTERN <- "\\d{2}/\\d{2}/\\d{4}"
+DATE_PATTERN <- "(0[1-9]|1[0-2])/(0[1-9]|[12][0-9]|3[01])/(19|20)\\d{2}"
 
 # Get the file path from the command-line argument
 args <- commandArgs(trailingOnly = TRUE)
