@@ -2,7 +2,7 @@
 title: "Blog Post Template"
 author: "Sidharth"
 desription: "Hi folks!"
-date: "28/02/2023"
+date: "02/25/2023"
 format:
   html:
     toc: true

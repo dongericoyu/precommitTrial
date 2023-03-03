@@ -1,8 +1,8 @@
 ---
 title: "Challenge 2 solution"
 author: "Xiaoyan Hu"
-desription: "Data wrangling: using group() and summarise()"
-date: "02/02/2023"
+description: "Data wrangling: using group() and summarise()"
+date: "02/12/2023"
 format:
   html:
     toc: true
